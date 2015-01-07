@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MarcadorTruco">
+    <item android:id="@+id/limparPontuacao" android:title="@string/limparPontuacao"
+        android:orderInCategory="100" android:showAsAction="never" />
+    <item android:id="@+id/sairDoMarcador" android:title="@string/sair"
+        android:orderInCategory="100" android:showAsAction="never" />
+</menu>
