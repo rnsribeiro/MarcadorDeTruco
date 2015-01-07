@@ -62,48 +62,6 @@ public class MarcadorTruco extends Activity {
         radioEles3 = (RadioButton)findViewById(R.id.radioEles3);
     }
 
-    /*
-    public void abilitarLayout(){
-        LinearLayout layout1 = (LinearLayout)findViewById(R.id.layoutMenosMais1);
-        for(int i = 0; i < layout1.getChildCount(); i++){
-            View child = layout1.getChildAt(i);
-            child.setEnabled(true);
-        }
-
-        LinearLayout layout2 = (LinearLayout)findViewById(R.id.layoutMenosMais3);
-        for(int i = 0; i < layout2.getChildCount(); i++){
-            View child = layout2.getChildAt(i);
-            child.setEnabled(true);
-        }
-
-        LinearLayout layout3 = (LinearLayout)findViewById(R.id.layoutMenosMais6);
-        for(int i = 0; i < layout3.getChildCount(); i++){
-            View child = layout3.getChildAt(i);
-            child.setEnabled(true);
-        }
-
-        LinearLayout layout4 = (LinearLayout)findViewById(R.id.layoutMenosMais9);
-        for(int i = 0; i < layout4.getChildCount(); i++){
-            View child = layout4.getChildAt(i);
-            child.setEnabled(true);
-        }
-
-        LinearLayout layout5 = (LinearLayout)findViewById(R.id.layoutMenosMais12);
-        for(int i = 0; i < layout5.getChildCount(); i++){
-            View child = layout5.getChildAt(i);
-            child.setEnabled(true);
-        }
-
-        LinearLayout layout6 = (LinearLayout)findViewById(R.id.layoutCheckBox);
-        for(int i = 0; i < layout6.getChildCount(); i++){
-            View child = layout6.getChildAt(i);
-            child.setEnabled(true);
-        }
-
-    }
-    */
-
-
     public void desabilitarLayout(){
         LinearLayout layout1 = (LinearLayout)findViewById(R.id.layoutMenosMais1);
         for(int i = 0; i < layout1.getChildCount(); i++){
